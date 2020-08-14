@@ -138,7 +138,6 @@ a {
 
 /* Navbar */
 .site-navbar {
-  background: #fff;
   margin-bottom: 0px;
   z-index: 1999;
   position: relative; }
@@ -232,7 +231,7 @@ a {
         text-transform: uppercase;
         letter-spacing: .05em;
         color: #25262a;
-        font-size: 15px;
+        font-size: 18px;
         text-decoration: none !important; }
         .site-navbar .site-navigation .site-menu > li > a:hover {
           color: #7971ea; }
@@ -456,7 +455,7 @@ a {
   background-position: center center; }
   .site-blocks-cover, .site-blocks-cover .row {
     min-height: 600px;
-    height: calc(100vh - 174px); }
+    height: calc(100vh); }
   .site-blocks-cover h1 {
     font-size: 30px;
     font-weight: 900;
@@ -767,4 +766,32 @@ a {
 }
 .pr-160 {
   padding-right: 160px;
+}
+.ayusmat-icon {
+  background-image: url('../assets/images/logo/icon.png');
+  display: inline-block;
+  width: 55px;
+  height: 50px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.ayusmat-living-icon {
+  background-image: url('../assets/images/logo/collection.png');
+  display: inline-block;
+  width: 121px;
+  height: 48px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: -6px;
+}
+.logo {
+  display: inline-block;
+  float: left;
+  padding-top: 12px;
+  padding-left: 12px;
+}
+.site-wrap.about .site-blocks-cover {
+  background-image: url('../assets/images/contact-us-banner.jpg');
+  background-size: contain;
+  background-position: 0px 76px;
 }
